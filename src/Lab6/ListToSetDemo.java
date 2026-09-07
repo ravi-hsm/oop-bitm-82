@@ -4,16 +4,16 @@ import java.util.*;
 
 public class ListToSetDemo {
     public static void main(String[] args){
-//        Set<Integer> idList=new HashSet<>();
-//        idList.add(23); idList.add(25);
-//
-//        // Using Iterator explicitly
-//        System.out.println(idList);
-//
-//        Iterator<Integer> it = idList.iterator();
-//        while (it.hasNext()) {
-//            System.out.println(it.next());
-//        }
+        Set<Integer> idList=new HashSet<>();
+        idList.add(23); idList.add(25);
+
+        // Using Iterator explicitly
+        System.out.println(idList);
+
+        Iterator<Integer> it = idList.iterator();
+        while (it.hasNext()) {
+            System.out.println(it.next());
+        }
 
         Map<String, Double> groceriesList = new HashMap<>();
         groceriesList.put("Biscuits",19.5);
